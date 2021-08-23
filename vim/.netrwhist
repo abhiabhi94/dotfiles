@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/curious/Dev/opensourceDev/flag/.github/workflows'
+let g:netrw_dirhist_2='/home/curious/Dev/opensourceDev/playground/vagrant'
+let g:netrw_dirhist_1='/usr/bin/tor-browser_en-US'

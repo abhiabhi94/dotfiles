@@ -1,0 +1,30 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.gitignore_global: gitignore_global
+    ~/.gitconfig: gitconfig
+    ~/.pdbrc: pdbrc
+    ~/.scripts: scripts
+    ~/.tmux.conf: tmux.conf
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+    ~/.zsh: zsh
+    ~/.zshrc: zshrc
+
+- create:
+    - ~/downloads
+    - ~/.vim/undo-history
+
+- shell:
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+  - >
+    git clean -fdx
+    tmux/plugins/
+    tmux/resurrect/
+    vim/pack/vendor/start/
+    zsh/plugins/

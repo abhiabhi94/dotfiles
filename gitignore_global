@@ -1,0 +1,9 @@
+.vscode/
+*.py[c|o|d]
+*.swp
+# recovery files
+*.swo
+# coverage files
+.coverage
+.coverage.*
+venv*

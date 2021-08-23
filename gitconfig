@@ -1,0 +1,19 @@
+[user]
+	name = abhiabhi94
+	email = 13880786+abhiabhi94@users.noreply.github.com
+[color]
+	push = always
+	remote = always
+	ui = true
+[color "push"]
+	error = red bold
+[color "remote"]
+	error = red bold
+[core]
+	excludesFile = /home/curious/.gitignore_global
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[pull]
+    rebase = true
